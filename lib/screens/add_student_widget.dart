@@ -413,7 +413,7 @@ class AddStudentWidget extends StatelessWidget {
             decoration: const InputDecoration(
               border: OutlineInputBorder(),
               hintText: 'Name',
-            ),
+                          ),
           ),
           TextFormField(
             controller: _ageController,
@@ -428,7 +428,7 @@ class AddStudentWidget extends StatelessWidget {
               onAddStudentButtonClicked();
               Navigator.of(context).pop();
             },
-            child: Text("Add Student"),
+            child: Text("ADD Student"),
           )
           // ElevatedButton(
           //   onPressed: () {
