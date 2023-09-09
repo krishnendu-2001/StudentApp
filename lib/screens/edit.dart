@@ -69,15 +69,15 @@ class _EditStudentListState extends State<EditStudentList> {
   }
 
   updateAll() {
-    final name1 = _nameController.text.trim();
-    final age1 = _ageController.text.trim();
+    final editname = _nameController.text.trim();
+    final editage = _ageController.text.trim();
 
-    if (name1.isEmpty || age1.isEmpty) {
+    if (editname.isEmpty || editage.isEmpty) {
       return;
     } else {
       final update = StudentModel(
-        name: name1,
-        age: age1,
+        name: editname,
+        age: editage,
       );
 
       editStudentDetails(widget.index, update);
