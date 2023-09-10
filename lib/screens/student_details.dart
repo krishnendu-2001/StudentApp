@@ -12,7 +12,7 @@ class StudentDetails extends StatefulWidget {
 }
 
 class _StudentDetailsStudent extends State<StudentDetails> {
-  File? selectedimage;
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
